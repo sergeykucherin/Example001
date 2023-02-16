@@ -1,4 +1,7 @@
-﻿int a = 1;
+﻿// Определение максимального числа из 5 чисел
+
+Console.Clear();
+int a = 1;
 int b = 2;
 int c = 6;
 int d = 8;
@@ -12,5 +15,5 @@ if (c > max) max = c;
 if (d > max) max = d;
 if (e > max) max = e;
 
-Console.Write("max = ");
-Console.WriteLine(max);
+Console.Write($"max = {max} ");
+//Console.WriteLine(max);
