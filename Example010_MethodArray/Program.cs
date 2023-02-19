@@ -1,4 +1,6 @@
-﻿using static System.Console;
+﻿// Поиск элемента массива = find с помощью метода (функции)
+
+using static System.Console;
 Clear();
 
 int[] array = {1, 5, 24, 19, 15, 32, 15, 24};
